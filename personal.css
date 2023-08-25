@@ -1,0 +1,405 @@
+body{
+    background-color:#8d4b55;
+    margin-top:0px;
+    margin-bottom: 0px;
+    /* animation-name: star;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+}
+/* @keyframes star{
+    from {background-color:#8d4b55;}
+    to {background-color: #ff004f;}
+} */
+header{
+    background-color: #8d4b55;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0px;
+    position: fixed;
+}
+#Name{
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 700px;
+    margin:10px;
+}
+#span1{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    display: inline-block;
+    margin: 0px; 
+    margin-bottom: 5px;
+    padding: 0px;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    font-size: 20px;
+    border: solid 1px;
+    margin-right: 25px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: all;
+    transition-duration: 1s;
+}
+a:hover{
+    background-color: aliceblue;
+    color: #8d4b55;
+    font-weight: bold;
+}
+a:active{
+    background-color: aliceblue;
+    color:#8d4b55;
+}
+#specification{
+    text-align: center;
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 230px;
+    font-size: 25px;
+}
+.name2{
+    text-align: center;
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+#section1{
+    display: inline-block;
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 120px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+#section2{
+    display: inline-block;
+    float: right;
+    margin-top: 200px;
+    margin-right: 150px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+
+}
+@-webkit-keyframes fadeIn {
+from {
+opacity: 0;
+}
+
+to {
+opacity: 1;
+}
+}
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+
+to {
+opacity: 1;
+}
+}
+.animate__fadeIn {
+-webkit-animation-name: fadeIn;
+animation-name: fadeIn;
+animation-duration: 2s;
+-webkit-animation-duration: 2s;
+animation-iteration-count: infinite;
+-webkit-animation-iteration-count: infinite;
+}
+
+#section3{
+    margin-top: 10px;
+    clear: both;
+    display: inline-block;
+    color: aliceblue;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom:10px;
+}
+.div1{
+    display: inline-block;
+    border: 1px solid;
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+    width: 200px;
+    text-align: center;
+    /* transition:transform 0.5s; */
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: 10px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:aliceblue;
+}
+#divi1{
+    background-image: url(Laptop.jpg);
+    margin-right: 50px;
+    margin-left: 90px;
+}
+#divi2{
+    background-image: url(Books.jpg);
+    margin-right: 50px;
+}
+#divi3{
+    background-image: url(School.jpg);
+    padding-top: 75px;
+}
+#Education{
+    margin-top: 80px;
+    color:rgb(240, 206, 160);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+#p2{
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size: 20px;
+}
+.p1{
+    display: none;
+}
+.div1:hover .p1{
+    display: contents;
+}
+#maindiv{
+    background-color:rgb(248, 227, 200);
+    padding-left: 50px;
+    border-radius: 25px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.span2{
+    font-size: 60px;
+}
+#divi1:hover{
+    /* transform: translateY(-20px); */
+    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    padding-top: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#divi2:hover{
+    /* transform: translateY(-20px); */
+    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    padding-top: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#divi3:hover{
+    /* transform: translateY(-20px); */
+    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    padding-top: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+@-webkit-keyframes fadeIn {
+from {
+opacity: 0;
+}
+
+to {
+opacity: 1;
+}
+}
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+
+to {
+opacity: 1;
+}
+}
+.animate__fadeIn {
+-webkit-animation-name: fadeIn;
+animation-name: fadeIn;
+animation-duration: 2s;
+-webkit-animation-duration: 2s;
+animation-iteration-count: infinite;
+-webkit-animation-iteration-count: infinite;
+}
+#section4{
+    margin-left: 70px;
+    display: inline-block;
+}
+#Experience{
+    margin-top: 80px;
+    color:rgb(240, 206, 160);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-left: 50px;
+}
+#Eficens{
+    display: inline-block;
+    width: 400px;
+    margin-left: 150px;
+    border: 2px solid;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-left: 50px;
+    padding-right: 25px;
+    color:#8d4b55;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    float: left;
+    background:linear-gradient(#f0dadd, #ffc3a0) ;
+    transition-property: all;
+    transition: transform 0.5s;
+    transition-duration: 0.5s;
+}
+#Eficens:hover{
+    transform:scale(1.1);
+    background: linear-gradient(#c46c76,#c97783);
+    color:rgb(228, 211, 185);
+    font-weight: bolder;
+}
+.Timeline{
+    margin-top: 50px;
+    margin-bottom: -200px;
+    display: inline-block;
+    color:rgb(228, 211, 185);
+    border: 2px solid;
+    height: 600px;
+    margin-left: 50px;
+    border-radius: 25px;
+    width: 3px;
+    background-color: rgb(228, 211, 185);
+}
+#Project{
+    display: inline-block;
+    width: 400px;
+    margin-left: 50px;
+    border: 2px solid;
+    padding-left: 50px;
+    padding-right: 25px;
+    color:#8d4b55;
+    font-weight: bolder;
+    background:linear-gradient(#f0dadd, #ffc3a0) ;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    transition-property: all;
+    transition: transform 0.5s;
+    transition-duration: 0.5s;
+}
+#Project:hover{
+    transform:scale(1.1);
+    background: linear-gradient(#c46c76,#c97783);
+    color:rgb(228, 211, 185);
+    font-weight: bolder;
+}
+#Hsd{
+    display: inline-block;
+    width: 400px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    border: 2px solid;
+    padding-left: 50px;
+    padding-right: 25px;
+    color:#8d4b55;
+    font-weight: bolder;
+    background:linear-gradient(#f0dadd, #ffc3a0) ;
+    font-family:'Courier New', Courier, monospace;
+    float: left;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    transition-property: all;
+    transition: transform 0.5s;
+    transition-duration: 0.5s;
+}
+#Hsd:hover{
+    transform:scale(1.1);
+    background: linear-gradient(#c46c76,#c97783);
+    color:rgb(228, 211, 185);
+    font-weight: bolder;
+}
+.titles{
+    color: rgb(88, 85, 85);
+}
+#section5{
+    clear: both;
+    margin-top: 70px;
+    display:block;
+    margin-left: 50px;
+}
+#Tech{
+    margin-top: 30px;
+    color:rgb(240, 206, 160);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-left: 50px;
+}
+#unorder li{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.logo:hover{
+    background-color: #8d4b55;
+}
+.list1{
+    transition-property: all;
+    transition-duration: 2s;
+    transition: transform 0.5s;
+    text-decoration: none;
+    display:inline-block;
+}
+.list1:hover{
+    transform: scale(1.5);
+}
+footer{
+    margin-top: 50px;
+    clear: both;
+    display:block;
+    color:rgb(248, 232, 188);
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+
+}
+#unorder1{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 600px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.list2{
+    display: inline-block;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition: trasnform 0.5s;
+}
+.list2:hover{
+    transform: scale(1.1);
+}
+#copyrights{
+    text-align: center;
+}
